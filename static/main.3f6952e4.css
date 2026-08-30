@@ -4671,8 +4671,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent
+    background-color: rgba(17, 17, 17, .6);
+    border-color: rgba(255, 255, 255, .08)
 }
 
 .navbar-inverse .navbar-brand {
@@ -5712,7 +5712,8 @@ body.minimal {
 
 .hero-full-container .hero-full-wrapper .text-content {
     vertical-align: middle;
-    display: table-cell
+    display: table-cell;
+    padding-bottom: 10%; 
 }
 
 .white-text-container h1,
@@ -6199,6 +6200,20 @@ textarea {
 .list-icons li {
     float: left;
     margin-right: 5px
+}
+
+.hero-full-container.background-image-container {
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+}
+
+.hero-full-container.background-image-container {
+    position: relative;
+    overflow: hidden;
 }
 
 /*# sourceMappingURL=main.70a66962.map*/
